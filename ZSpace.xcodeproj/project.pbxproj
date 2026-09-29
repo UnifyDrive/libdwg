@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200000000000000000000001 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000001 /* main.m */; };
+		200000000000000000000002 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000003 /* AppDelegate.m */; };
+		200000000000000000000003 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000005 /* ViewController.m */; };
+		200000000000000000000004 /* L10n.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000007 /* L10n.m */; };
+		20000000000000000000000A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000015 /* SceneDelegate.m */; };
+		20000000000000000000000B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000016 /* Assets.xcassets */; };
+		200000000000000000000005 /* develop.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000A /* develop.strings */; };
+		200000000000000000000006 /* libredwg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000E /* libredwg.a */; };
+		200000000000000000000007 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100000000000000000000010 /* UIKit.framework */; };
+		200000000000000000000008 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100000000000000000000011 /* QuartzCore.framework */; };
+		200000000000000000000009 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100000000000000000000012 /* CoreText.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		100000000000000000000001 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		100000000000000000000002 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		100000000000000000000003 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		100000000000000000000004 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		100000000000000000000005 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		100000000000000000000006 /* L10n.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = L10n.h; sourceTree = "<group>"; };
+		100000000000000000000007 /* L10n.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = L10n.m; sourceTree = "<group>"; };
+		100000000000000000000008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		100000000000000000000009 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/develop.strings"; sourceTree = "<group>"; };
+		10000000000000000000000B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/develop.strings; sourceTree = "<group>"; };
+		10000000000000000000000C /* JKJDWGPreviewView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKJDWGPreviewView.h; sourceTree = "<group>"; };
+		10000000000000000000000D /* dwg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dwg.h; sourceTree = "<group>"; };
+		10000000000000000000000E /* libredwg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libredwg.a; sourceTree = "<group>"; };
+		10000000000000000000000F /* dwg_api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dwg_api.h; sourceTree = "<group>"; };
+		100000000000000000000010 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		100000000000000000000011 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		100000000000000000000012 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		100000000000000000000013 /* ZSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		100000000000000000000014 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		100000000000000000000015 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		100000000000000000000016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		300000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200000000000000000000006 /* libredwg.a in Frameworks */,
+				200000000000000000000009 /* CoreText.framework in Frameworks */,
+				200000000000000000000008 /* QuartzCore.framework in Frameworks */,
+				200000000000000000000007 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		400000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				400000000000000000000002 /* ZSpace */,
+				400000000000000000000003 /* Universal */,
+				40000000000000000000000C /* Frameworks */,
+				40000000000000000000000D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		400000000000000000000002 /* ZSpace */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000001 /* main.m */,
+				100000000000000000000002 /* AppDelegate.h */,
+				100000000000000000000003 /* AppDelegate.m */,
+				100000000000000000000014 /* SceneDelegate.h */,
+				100000000000000000000015 /* SceneDelegate.m */,
+				100000000000000000000004 /* ViewController.h */,
+				100000000000000000000005 /* ViewController.m */,
+				100000000000000000000006 /* L10n.h */,
+				100000000000000000000007 /* L10n.m */,
+				10000000000000000000000A /* develop.strings */,
+				100000000000000000000016 /* Assets.xcassets */,
+				100000000000000000000008 /* Info.plist */,
+			);
+			path = ZSpace;
+			sourceTree = "<group>";
+		};
+		400000000000000000000003 /* Universal */ = {
+			isa = PBXGroup;
+			children = (
+				400000000000000000000004 /* Components */,
+				400000000000000000000008 /* Modules */,
+			);
+			path = Universal;
+			sourceTree = "<group>";
+		};
+		400000000000000000000004 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				400000000000000000000005 /* dist-ios */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		400000000000000000000005 /* dist-ios */ = {
+			isa = PBXGroup;
+			children = (
+				400000000000000000000006 /* include */,
+				400000000000000000000007 /* lib */,
+			);
+			path = "dist-ios";
+			sourceTree = "<group>";
+		};
+		400000000000000000000006 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				10000000000000000000000D /* dwg.h */,
+				10000000000000000000000F /* dwg_api.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		400000000000000000000007 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				10000000000000000000000E /* libredwg.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		400000000000000000000008 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				400000000000000000000009 /* DocPreview */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		400000000000000000000009 /* DocPreview */ = {
+			isa = PBXGroup;
+			children = (
+				40000000000000000000000A /* View */,
+			);
+			path = DocPreview;
+			sourceTree = "<group>";
+		};
+		40000000000000000000000A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				10000000000000000000000C /* JKJDWGPreviewView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40000000000000000000000C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000010 /* UIKit.framework */,
+				100000000000000000000011 /* QuartzCore.framework */,
+				100000000000000000000012 /* CoreText.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40000000000000000000000D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000013 /* ZSpace.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		500000000000000000000001 /* ZSpace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800000000000000000000002 /* Build configuration list for PBXNativeTarget "ZSpace" */;
+			buildPhases = (
+				300000000000000000000002 /* Sources */,
+				300000000000000000000001 /* Frameworks */,
+				300000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSpace;
+			productName = ZSpace;
+			productReference = 100000000000000000000013 /* ZSpace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		600000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					500000000000000000000001 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = 800000000000000000000001 /* Build configuration list for PBXProject "ZSpace" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = zh_CN;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				zh_CN,
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 400000000000000000000001;
+			productRefGroup = 40000000000000000000000D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				500000000000000000000001 /* ZSpace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		300000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200000000000000000000005 /* develop.strings in Resources */,
+				20000000000000000000000B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		300000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200000000000000000000001 /* main.m in Sources */,
+				200000000000000000000002 /* AppDelegate.m in Sources */,
+				20000000000000000000000A /* SceneDelegate.m in Sources */,
+				200000000000000000000003 /* ViewController.m in Sources */,
+				200000000000000000000004 /* L10n.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10000000000000000000000A /* develop.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				100000000000000000000009 /* zh-Hans */,
+				10000000000000000000000B /* en */,
+			);
+			name = develop.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		700000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		700000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		700000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H86V49Q8DY;
+				GENERATE_INFOPLIST_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Universal/Components/dist-ios/include",
+				);
+				INFOPLIST_FILE = ZSpace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Universal/Components/dist-ios/lib",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-liconv",
+					"-lm",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zspace.opensource.dwg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		700000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H86V49Q8DY;
+				GENERATE_INFOPLIST_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Universal/Components/dist-ios/include",
+				);
+				INFOPLIST_FILE = ZSpace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Universal/Components/dist-ios/lib",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-liconv",
+					"-lm",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zspace.opensource.dwg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		800000000000000000000001 /* Build configuration list for PBXProject "ZSpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700000000000000000000001 /* Debug */,
+				700000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800000000000000000000002 /* Build configuration list for PBXNativeTarget "ZSpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700000000000000000000003 /* Debug */,
+				700000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 600000000000000000000001 /* Project object */;
+}
